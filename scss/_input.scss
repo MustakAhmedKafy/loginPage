@@ -1,0 +1,29 @@
+$primary: #A793B8;
+$border-color: #A793B8;
+$box-shadow:0 0 0 .15rem rgba(167, 147, 184, .7);
+$background-color:#E6E6E6;
+
+.icon {
+  position: absolute;
+  left: 0.75rem;
+  top: .75rem;
+  & img{
+    width: 20px;
+    height: 16px;
+  }
+}
+
+.form-control {
+  padding: 1.25rem .75rem;
+  background-color: $background-color;
+  border: 0px;
+  border-radius: 3px;
+  height: 3rem;
+  padding-left: 2.25rem;
+
+  &:focus {
+    border-color: $border-color;
+    box-shadow: $box-shadow;
+  }
+}
+
